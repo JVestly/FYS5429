@@ -14,5 +14,12 @@ The code compares an RL-GNN decoder against simpler decoding baselines, includin
 ├── training.ipynb
 ├── tests.ipynb
 └── Figures/
+```
 
-utils.py contains the reusable decoding utilities, including syndrome calculation, error sampling, Tanner graph construction, the CSS correction environment, and the RL actor-critic model. training.ipynb trains and selects the RL-GNN decoder configuration using imitation learning and reinforcement learning. tests.ipynb evaluates the trained decoder against baseline methods on BB-code error-correction tasks. Figures/ contains the plots and visual outputs generated from the training and evaluation notebooks.
+`utils.py` contains the reusable decoding utilities, including syndrome calculation, error sampling, Tanner graph construction, the RL environment, and decoder helper functions.
+
+`training.ipynb` contains the training workflow for the RL–GNN decoder.
+
+`tests.ipynb` contains evaluation experiments and baseline comparisons.
+
+`Figures/` contains generated plots used in the report.
