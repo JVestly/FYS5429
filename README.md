@@ -1,6 +1,6 @@
 # FYS5429
 Project in FYS5429
-# RL-GNN Decoder for Bivariate Bicycle CSS Codes
+# RL-GNN Quantum Error Correcting Decoder for BB codes
 
 This repository contains a notebook-based experiment for training and testing a reinforcement-learning graph neural network decoder for CSS quantum error-correcting codes, with a focus on bivariate bicycle codes.
 
